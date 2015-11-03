@@ -1,0 +1,52 @@
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .ss-q-title, .ss-choice-label{
+        font-size: 14px;
+    }
+    #ss-form p{
+        font-size: 10px;
+    }
+    input[type="submit"]{
+        height: 57px; 
+        width: 150px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .ss-q-title, .ss-choice-label{
+        font-size: 18px;
+    }   
+    #ss-form p{
+        font-size: 18px;
+        line-height: 20px;
+    }  
+    input[type="submit"]{
+        height: 67px;
+        width: 175px; 
+    }          
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .ss-q-title,  .ss-choice-label{
+        font-size: 24px;
+    }   
+    #ss-form p{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    input[type="submit"]{
+        height: 76px;
+        width: 200px; 
+    }  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .ss-q-title{
+        font-size: 18px;
+    }   
+}
