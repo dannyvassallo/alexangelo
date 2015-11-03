@@ -1,2 +1,47 @@
 // Add custom css here or create more partials
 // and import them in all.css.scss!
+
+// background fix
+
+#background-fix{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -99999;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#top-gradient{
+  background: #01163c; /* Old browsers */
+  background: -moz-linear-gradient(top,  #01163c 0%, #000000 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#01163c), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #01163c 0%,#000000 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #01163c 0%,#000000 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #01163c 0%,#000000 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #01163c 0%,#000000 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01163c', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 0;
+  z-index: -99998;
+}
+
+// full width
+.full-w{
+  width: 100%;
+}
+
+#header{
+  margin-top: 7%;
+}
+
+#enter-text{
+ img{
+   margin-top: -20%; 
+ }
+}
