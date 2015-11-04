@@ -1,7 +1,9 @@
 function resizeBackground(){
-  var docH = $(document).height();
-  var docW = $(document).width();
-  $('#background-fix').css({'width':docW,'height':docH});
+  setTimeout(function(){
+    var docH = $(document).height();
+    var docW = $(document).width();
+    $('#background-fix').css({'width':docW,'height':docH});
+  }, 500);
 }
 
 
