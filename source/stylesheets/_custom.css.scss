@@ -81,3 +81,21 @@
 .thank-you{
   font-family: 'cubanoregular'; 
 }
+
+.rules-link{
+  p{
+    text-decoration: underline;
+  }
+}
+
+.ss-choice-label{
+  .rules-link{
+    text-decoration: underline !important;      
+  }
+}
+
+.foot-rules{
+  p{
+    font-size: 24px !important;
+  }
+}
